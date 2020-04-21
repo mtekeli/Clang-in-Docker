@@ -17,4 +17,3 @@ RUN apt-get update && apt-get install -y \
 
 # Start from a Bash prompt
 CMD [ "/bin/bash" ]
-
