@@ -1,3 +1,17 @@
-# Clang in a Docker container
+simply run
 
-Check [https://solarianprogrammer.com/2017/12/14/clang-in-docker-container-cpp-17-development/](https://solarianprogrammer.com/2017/12/14/clang-in-docker-container-cpp-17-development/) for more details.
+```
+make
+```
+
+wait for your image to be build and once you are in it run 
+
+```
+make
+```
+
+again to build the tests. Then you can run any test you want:
+
+```
+./bin/span_test
+```
